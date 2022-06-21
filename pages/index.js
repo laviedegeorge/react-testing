@@ -61,7 +61,7 @@ export default function Home() {
         </a>
       </footer>
 
-      <style jsx>{`
+      <style jsx="true">{`
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -193,7 +193,7 @@ export default function Home() {
         }
       `}</style>
 
-      <style jsx global>{`
+      <style jsx="true" global="true">{`
         html,
         body {
           padding: 0;
